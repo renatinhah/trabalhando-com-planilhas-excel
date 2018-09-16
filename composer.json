@@ -1,0 +1,28 @@
+{
+    "name": "innovare",
+    "description": "Lê os dados de arquivos excel e insere no banco de dados",
+    "authors": [
+        {
+            "name": "Renata",
+            "email": "renata.ufop@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zend-mail": "^2.7",
+        "zendframework/zend-servicemanager": "~2.5",
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "recommend": {
+        "ext-zip": "*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPExcel": "Classes/"
+        }
+    }
+}

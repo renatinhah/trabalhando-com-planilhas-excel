@@ -1,0 +1,7 @@
+filesToImport/
+importedFiles/
+importLog/
+vendor/
+composer.lock
+
+
